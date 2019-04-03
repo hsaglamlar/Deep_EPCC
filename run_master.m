@@ -1,4 +1,4 @@
-method = 'polyhedral_bc';
+method = 'polyhedral';
 
 if strcmp(method, 'polyhedral')
     run_our_experiments([101], 'gpus', [1]);
