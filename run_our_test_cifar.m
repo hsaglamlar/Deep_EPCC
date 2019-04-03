@@ -52,11 +52,7 @@ for i=1:500,
         opts.rgbVariance=rgbCovariance;
         if ~isempty(opts.averageImage)
             offset = opts.averageImage ;
-        %    if ~isempty(opts.rgbVariance)
-         %       offset = bsxfun(@plus, offset, reshape(opts.rgbVariance * randn(3,1), 1,1,3)) ;
-          %  end
             imtemp(:,:,:,j) = bsxfun(@minus, single(imt(sx,sy,:)), offset) ;
-            
         end
        % imtemp(:,:,:,j) = single(imt(sx,sy,:));
 
