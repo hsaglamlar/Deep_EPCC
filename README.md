@@ -1,4 +1,4 @@
-# Deep_EPCC
+# Deep EPCC
 
 This is the software package for deep neural networks using polyhedral conic function loss. We integrated the polyhedral conic classification loss function into ResNet-101 deep neural network architecture and tested the resulting deep neural network classifier on different classification problems including binary classification, multi-class and multi-label classification. 
 
