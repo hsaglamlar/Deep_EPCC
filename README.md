@@ -12,7 +12,7 @@ Majority of the programs are identical to the ones in classical MatConvNet toolb
 
 For testing trained models, please see the files **“run_our_test_pascalvoc.m”**, **“run_our_test_cifar.m”**, **“run_our_test_coco.m”** files.
 
-Download trained models and image stats from here: [cifar10_model](https://drive.google.com/open?id=1UramKqP1JEAXJ0InUts0WeAR4gX1UogB), [cifar10_image stats](https://drive.google.com/open?id=1crdovsqQ9AElVDBiJS_nJpPupgvii5rH), [COCO_model](https://drive.google.com/open?id=12YvfW19u5IqB3aRggpx5g5d6eDaZ1aI8), [COCO_image stats](https://drive.google.com/open?id=1uKGwCe02aGPTa0RE3jGhTB5WGv4RgIbO) .
+Download trained models and image stats from here: [cifar10_model](https://drive.google.com/open?id=1UramKqP1JEAXJ0InUts0WeAR4gX1UogB), [cifar10_image stats](https://drive.google.com/open?id=1crdovsqQ9AElVDBiJS_nJpPupgvii5rH), [COCO_model](https://drive.google.com/open?id=12YvfW19u5IqB3aRggpx5g5d6eDaZ1aI8), [COCO_image stats](https://drive.google.com/open?id=1uKGwCe02aGPTa0RE3jGhTB5WGv4RgIbO).
 
 Please cite the following papers if you use this package.
 
