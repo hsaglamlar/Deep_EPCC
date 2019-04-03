@@ -4,7 +4,7 @@ This is the software package for deep neural networks using polyhedral conic fun
 
 Majority of the programs are identical to the ones in classical MatConvNet toolbox, but we made minor changes to integrate the polyhedral conic function loss. To this end, we added **“Polyhedral.m”** file into directory “ResNet-Matconvnet/dependencies/matconvnet/ matlab/+dagnn/” and we revised the file **“vl_nnloss.m”** under the directory “ResNet-Matconvnet/dependencies/matconvnet/”.
 
-**For binary classification**, labels must be given as “+1” for positive class samples and “-1” for negatives.  Please see **“run_master_pascalvoc.m”** file to train the network for binary classification (this is more like a one-class problem where the positive class samples are surrounded by negatives). Please also check “pascalvoc_imdb_aeroplane.mat” for assigning labels to the images.
+**For binary classification**, labels must be given as “+1” for positive class samples and “-1” for negatives.  Please see **“run_master_pascalvoc.m”** file to train the network for binary classification (this is more like a one-class problem where the positive class samples are surrounded by negatives). Please also check **“pascalvoc_imdb_aeroplane.mat”** for assigning labels to the images.
 
 **For multi-class classification problems with single label**, labeling is identical to the classical label assignment in MatConvNet toolbox.  To train the ResNet-101 network using polyhedral conic function loss, method term must be set to “**method = ‘polyhedral’** ” in run_master.m file.
 
