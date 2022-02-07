@@ -19,3 +19,5 @@ Please cite the following papers if you use this package.
 [1] H. Cevikalp, H. Sağlamlar, “Polyhedral conic classifiers for computer vision applications and open set recognition,” IEEE Transactions on Pattern Analysis and Machine Intelligence. PP. 1-1. 10.1109/TPAMI.2019.2934455.
 
 [2] H. Cevikalp, B. Triggs, “Polyhedral conic classifiers for visual object detection and classification,” CVPR, 2017.
+
+Note: This code is developed by [Eskisehir Osmangazi University MLCV](https://web.ogu.edu.tr/mlcv) staff. 
